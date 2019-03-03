@@ -27,6 +27,7 @@ git clone https://github.com/kaldi-asr/kaldi.git kaldi-trunk --origin golden
 . ../../tools/env.sh
 ```
 in `path.sh`
+
 7. Change the paths in the files to be correct **instead of _home/hamahmi/kaldi-trunk/_ use your own path**
 8. Run the scripts `script_for_utt2spk.sh`, `script_for_wav.scp.sh`, and `script_for_text.sh` in both `kaldi-trunk/egs/kaldi-tut/digits_audio/test/` and `kaldi-trunk/egs/kaldi-tut/digits_audio/train`to generate the respective files.
 Completing these steps ensures that the data has been properly set up.
